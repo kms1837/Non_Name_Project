@@ -1,16 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\mapTest.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Skill\ParticleAutoDestroy.cs">
     <Files>
-      <File FileName="..\TeaTime_The_Devil\Assets\Script\gameManagment.cs" Line="1" Column="1" />
-      <File FileName="..\TeaTime_The_Devil\Assets\Script\gameScene\weponSystem.cs" Line="1" Column="1" />
-      <File FileName="..\TeaTime_The_Devil\Assets\Script\gameScene\weponMenuItem.cs" Line="17" Column="52" />
-      <File FileName="..\TeaTime_The_Devil\Assets\Script\gameScene\enemy\E_copy.cs" Line="1" Column="1" />
-      <File FileName="..\TeaTime_The_Devil\Assets\Script\gameScene\enemy\E_move.cs" Line="1" Column="1" />
-      <File FileName="..\TeaTime_The_Devil\Assets\Script\gameScene\enemy\E_death.cs" Line="1" Column="1" />
-      <File FileName="..\TeaTime_The_Devil\Assets\Script\gameScene\enemy\E_drag.cs" Line="1" Column="1" />
-      <File FileName="..\TeaTime_The_Devil\Assets\Script\gameScene\StageManagment.cs" Line="1" Column="1" />
-      <File FileName="Assets\mapTest.cs" Line="183" Column="18" />
+      <File FileName="..\Project_V\Assets\Script\Move_Character.cs" Line="1" Column="1" />
+      <File FileName="Assets\RamGy\Source\Skill\FireBallCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Skill\WaterShock.cs" Line="23" Column="1" />
+      <File FileName="Assets\Script\Skill\SkillBase.cs" Line="9" Column="17" />
+      <File FileName="Assets\Script\Skill\IceLance.cs" Line="22" Column="1" />
+      <File FileName="Assets\RamGy\Source\SkillInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Skill\IceShield.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Skill\ParticleAutoDestroy.cs" Line="15" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
