@@ -75,9 +75,12 @@
      <Compile Include="Assets\RamGy\Source\SortingLayerExposer.cs" />
      <Compile Include="Assets\RamGy\Source\SourceTest.cs" />
      <Compile Include="Assets\RamGy\Source\TrailSortingOrder.cs" />
+     <Compile Include="Assets\Script\AITest.cs" />
      <Compile Include="Assets\Script\HpBar.cs" />
+     <Compile Include="Assets\Script\Player.cs" />
      <Compile Include="Assets\Script\Skill\IceLance.cs" />
      <Compile Include="Assets\Script\Skill\IceShield.cs" />
+     <Compile Include="Assets\Script\Skill\LightningBurst.cs" />
      <Compile Include="Assets\Script\Skill\ParticleAutoDestroy.cs" />
      <Compile Include="Assets\Script\Skill\SkillBase.cs" />
      <Compile Include="Assets\Script\Skill\WaterShock.cs" />

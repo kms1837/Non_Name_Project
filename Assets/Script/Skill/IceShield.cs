@@ -3,9 +3,27 @@ using System.Collections;
 
 public class IceShield : SkillBase {
 	public Transform counterSkill;
+	public Sprite shieldTexture;
+	private GameObject shieldObj;
+
+	void Start () {
+		SpriteRenderer setSprite;
+		shieldObj = new GameObject("shield");
+		shieldObj.transform.parent = this.transform;
+
+		setSprite = shieldObj.AddComponent<SpriteRenderer>();
+		setSprite.sprite		= shieldTexture;
+		setSprite.sortingOrder  = 2;
+	}
 
 	void Update () {
-		this.transform.Translate(Vector3.right * Time.deltaTime * speed, Space.Self);
+		durationTime = durationTime - Time.deltaTime;
+		shieldObj.transform.position = this.transform.position;
+
+		if (durationTime < 0){
+			Destroy (shieldObj);
+			Destroy (this);
+		}
 	}
 	
 	void OnTriggerEnter2D(Collider2D collObj) {
@@ -28,6 +46,7 @@ public class IceShield : SkillBase {
 			Transform Effect = (Transform)Instantiate (counterSkill, insPosition, counterSkill.rotation);
 			Effect.GetComponent<WaterShock>().direction = setDirection;
 			Effect.GetComponent<WaterShock>().speed = collObj.gameObject.GetComponent<SkillBase>().speed;
+			Destroy(shieldObj);
 			Destroy(this);
 		}
 	}

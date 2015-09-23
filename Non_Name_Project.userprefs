@@ -1,15 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Skill\ParticleAutoDestroy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\AITest.cs">
     <Files>
-      <File FileName="..\Project_V\Assets\Script\Move_Character.cs" Line="1" Column="1" />
-      <File FileName="Assets\RamGy\Source\Skill\FireBallCtrl.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Skill\WaterShock.cs" Line="23" Column="1" />
-      <File FileName="Assets\Script\Skill\SkillBase.cs" Line="9" Column="17" />
-      <File FileName="Assets\Script\Skill\IceLance.cs" Line="22" Column="1" />
-      <File FileName="Assets\RamGy\Source\SkillInfo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Skill\IceShield.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Skill\ParticleAutoDestroy.cs" Line="15" Column="1" />
+      <File FileName="Assets\Script\AITest.cs" Line="31" Column="5" />
+      <File FileName="Assets\Script\Player.cs" Line="13" Column="18" />
+      <File FileName="Assets\Script\Skill\WaterShock.cs" Line="17" Column="3" />
+      <File FileName="Assets\Script\Skill\IceShield.cs" Line="6" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
